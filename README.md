@@ -35,6 +35,34 @@ Welcome to my GitHub Portfolio—a collection of end-to-end data science and eng
 
 ## 🚀 Featured Projects
 
+### [🚍 Building a Real-Time Transit Data Pipeline (MBTA Route 1)](https://github.com/ashwinpal17/Project-16.1-MBTA)
+This project implements a production-style **data engineering pipeline** that ingests live bus data from the MBTA Route 1 API and moves it through a multi-container architecture using Docker, MySQL, Debezium CDC, MongoDB, Flask, and Jupyter Notebook.
+
+- Ingest  
+  - Calls the official MBTA V3 API every 10 seconds to pull live vehicle data for Route 1.  
+  - Parses nested JSON to extract vehicle ID, latitude/longitude, speed, direction, occupancy, trip ID, and current stop sequence.  
+  - Handles missing fields and API variability to keep the pipeline robust.
+
+- Store & Model  
+  - Stores raw and enriched records in a **MySQL** database running inside a Docker container.  
+  - Designed and implemented a relational schema (`mbta_buses` table) to support historical analysis by trip, route, and time.  
+  - Ensured proper indexing on time and trip fields to support downstream queries.
+
+- Change Data Capture (CDC)  
+  - Configured **Debezium** (Java + Maven + Spring Boot) to read MySQL binlogs and capture row-level changes in real time.  
+  - Streamed change events into **MongoDB** as documents, creating an append-only event store for downstream consumers.  
+  - Implemented a custom listener to transform Debezium events and write them into a dedicated CDC collection.
+
+- Analyze & Visualize  
+  - Built a **Flask** web server to display near real-time bus locations on a Mapbox/OpenStreetMap view.  
+  - Used a **Jupyter Notebook** to compute:  
+    - Average time for a bus to complete Route 1.  
+    - Estimated speed from first to last stop using the Haversine formula.  
+    - Visualizations of stop sequence progression and route coverage over time.  
+
+Outcome:  
+This project showcases a full **end-to-end data pipeline**—from live API ingestion to CDC and analytics—demonstrating skills in containerized data engineering, streaming architectures, and geospatial analysis using real-world transit data.
+
 ### [📊 Building an ETL Pipeline for Canadian Retail Sales (MRTS)](https://github.com/brnhaze/Portfolio/blob/main/ETL_MRTS/Module%208_Final_Project_Template.html)
 This project develops a full **ETL pipeline** using the *Monthly Retail Trade Survey (MRTS)* dataset from Statistics Canada to study long-term consumer spending patterns.  
 
