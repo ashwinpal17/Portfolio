@@ -61,7 +61,7 @@ This project implements a production-style **data engineering pipeline** that in
     - Visualizations of stop sequence progression and route coverage over time.  
 
 Outcome:  
-  This project showcases a full **end-to-end data pipeline**—from live API ingestion to CDC and analytics—demonstrating skills in containerized data engineering, streaming architectures, and geospatial analysis using real-world transit data.
+  - This project showcases a full **end-to-end data pipeline**—from live API ingestion to CDC and analytics—demonstrating skills in containerized data engineering, streaming architectures, and geospatial analysis using real-world transit data.
 
 ### [📊 Building an ETL Pipeline for Canadian Retail Sales (MRTS)](https://github.com/brnhaze/Portfolio/blob/main/ETL_MRTS/Module%208_Final_Project_Template.html)
 This project develops a full **ETL pipeline** using the *Monthly Retail Trade Survey (MRTS)* dataset from Statistics Canada to study long-term consumer spending patterns.  
