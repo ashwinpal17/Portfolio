@@ -3,7 +3,6 @@
 This project builds a complete real-time transit data pipeline that ingests live MBTA Route 1 bus data, stores it in MySQL, streams database changes into MongoDB using Debezium CDC, and visualizes bus activity using a Flask web dashboard.
 A Jupyter Notebook provides analysis of route timings, speeds (via Haversine distance), and GPS movement.
 
-📂 Repository Structure
 Project-16.1-MBTA/
 │
 ├── DebeziumCDC/              # Debezium + Spring Boot CDC listener
@@ -28,6 +27,7 @@ Project-16.1-MBTA/
 │
 ├── .gitignore
 └── README.md
+
 
 🛠 Technologies Used
 Languages
