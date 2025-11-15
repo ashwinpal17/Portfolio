@@ -5,7 +5,7 @@
 </p>
 
 <h3>Ashwin</h3>
-<p><strong>Data Science | Machine Learning | Analytics</strong></p>
+<p><strong>Data Science | Machine Learning | Analytics | Engineering</strong></p>
 <p>🇨🇦 Canada &nbsp; | &nbsp; 💼 Open to Work</p>
 <p>
   <a href="mailto:ashwinpraneelpal@hotmail.com">✉️ Email</a> |
@@ -35,7 +35,7 @@ Welcome to my GitHub Portfolio—a collection of end-to-end data science and eng
 
 ## 🚀 Featured Projects
 
-### [🚍 Building a Real-Time Transit Data Pipeline (MBTA Route 1)](https://github.com/ashwinpal17/Project-16.1-MBTA)
+### [🚍 Building a Real-Time Transit Data Pipeline (MBTA Route 1)](https://github.com/ashwinpal17/Portfolio/tree/main/Project-16.1-MBTA)
 This project implements a production-style **data engineering pipeline** that ingests live bus data from the MBTA Route 1 API and moves it through a multi-container architecture using Docker, MySQL, Debezium CDC, MongoDB, Flask, and Jupyter Notebook.
 
 - Ingest  
