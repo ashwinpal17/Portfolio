@@ -35,6 +35,29 @@ Welcome to my GitHub Portfolio—a collection of end-to-end data science and eng
 
 ## 🚀 Featured Projects
 
+### [📊 Airflow-Based Data Pipeline & Text Visualization](https://github.com/ashwinpal17/Portfolio/tree/main/airflow%20pipeline%20text%20visual)
+This project demonstrates an end-to-end data pipeline built using Apache Airflow, Docker, Python, and D3.js. The goal was to automate the ingestion, processing, and visualization of real-world web data using a reproducible workflow that mirrors production-style data engineering practices.
+
+Using Airflow DAGs, the pipeline pulls MIT course catalog HTML pages, combines and cleans the data, extracts meaningful text features, and produces a word-frequency dataset. The final output is visualized as an interactive bubble chart using D3.js, allowing exploration of dominant academic themes across MIT courses.
+
+This project reinforced how orchestration, task dependencies, data cleaning, and visualization fit together in a modern data engineering workflow.
+
+- Pipeline Overview
+  - Step 1 – Orchestration (Airflow + Docker)
+  - Step 2 – Data Ingestion
+  - Step 3 – Transformation & Cleaning
+  - Step 4 – Analytics
+  - Step 5 – Visualization
+
+- Tools & Technologies
+  - Apache Airflow – DAG orchestration & scheduling
+  - Docker / Docker Compose – Containerized execution
+  - Python – Data ingestion, cleaning, and processing
+  - BeautifulSoup – HTML parsing
+  - JSON – Data interchange
+  - D3.js – Interactive visualization
+  - HTML / CSS / JavaScript – Frontend rendering
+
 ### [🚍 Building a Real-Time Transit Data Pipeline (MBTA Route 1)](https://github.com/ashwinpal17/Portfolio/tree/main/Project-16.1-MBTA)
 This project implements a production-style **data engineering pipeline** that ingests live bus data from the MBTA Route 1 API and moves it through a multi-container architecture using Docker, MySQL, Debezium CDC, MongoDB, Flask, and Jupyter Notebook.
 
