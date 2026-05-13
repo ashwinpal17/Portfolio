@@ -1,0 +1,31 @@
+{
+  "report_title": "CMS Healthcare Facility Access and Risk Overview",
+  "pages": [
+    {
+      "name": "Executive Overview",
+      "visuals": [
+        "KPI cards",
+        "Facilities by State map",
+        "Top states bar chart",
+        "State/category/ownership slicers"
+      ]
+    },
+    {
+      "name": "Facility and Ownership Mix",
+      "visuals": [
+        "Facility category bar chart",
+        "Ownership treemap",
+        "Category x ownership matrix"
+      ]
+    },
+    {
+      "name": "Risk and Capacity",
+      "visuals": [
+        "Certification trend",
+        "Total beds by state",
+        "Facility detail table"
+      ]
+    }
+  ],
+  "hidden_talk_track": "This is a healthcare operations dashboard for access, capacity, and provider risk."
+}

@@ -1,0 +1,8 @@
+-- POWER BI TALK TRACK: These measures support the top KPI cards and executive overview.
+Total Facilities = COUNTROWS('CMS Provider Services')
+Total Beds = SUM('CMS Provider Services'[Bed Count])
+Median Beds = MEDIAN('CMS Provider Services'[Bed Count])
+Terminated Facilities = CALCULATE([Total Facilities], 'CMS Provider Services'[Has Termination Date] = TRUE())
+Termination Rate = DIVIDE([Terminated Facilities], [Total Facilities])
+States Covered = DISTINCTCOUNT('CMS Provider Services'[State])
+Facility Categories = DISTINCTCOUNT('CMS Provider Services'[Facility Category])
