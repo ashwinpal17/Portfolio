@@ -35,6 +35,48 @@ Welcome to my GitHub Portfolio—a collection of end-to-end data science and eng
 
 ## 🚀 Featured Projects
 
+### 🏥 Healthcare Facility Access & Risk Analysis
+
+This project analyzes healthcare facility access, ownership structure, certification trends, and operational risk using the CMS Provider of Services dataset. The goal was to turn a large public healthcare dataset into a clean, employer-ready analysis that supports both exploratory data analysis and business intelligence dashboarding.
+
+Using Python, the project ingests CMS provider data, cleans and standardizes key fields, maps coded values into readable categories, and creates a dashboard-ready dataset. The analysis focuses on facility distribution across states, provider ownership patterns, bed capacity, certification activity, and termination indicators.
+
+This project reinforced how healthcare analytics combines data cleaning, public data interpretation, business framing, and dashboard design to support real-world decision-making.
+
+- Project Links
+
+  - [HTML Report](https://github.com/ashwinpal17/Portfolio/blob/main/Healthcare%20Facility%20Access%20and%20Risk%20Analysis/cms_provider_services_healthcare_portfolio_analysis.html)
+  - [Power BI Starter Package](https://github.com/ashwinpal17/Portfolio/blob/main/Healthcare%20Facility%20Access%20and%20Risk%20Analysis/Healthcare_Facility_Access_PowerBI_Starter.zip)
+  - [Tableau Workbook](https://github.com/ashwinpal17/Portfolio/blob/main/Healthcare%20Facility%20Access%20and%20Risk%20Analysis/Healthcare_Facility_Access_Tableau.twbx)
+  - [Clean Dataset](https://github.com/ashwinpal17/Portfolio/blob/main/Healthcare%20Facility%20Access%20and%20Risk%20Analysis/cms_provider_services_dashboard_ready.csv)
+
+- Analysis Overview
+
+  - Step 1 – Data ingestion from CMS public provider data
+  - Step 2 – Data cleaning and field standardization
+  - Step 3 – Mapping coded healthcare fields into readable categories
+  - Step 4 – Exploratory analysis of facility access, ownership, and capacity
+  - Step 5 – Creation of dashboard-ready files for Power BI and Tableau
+
+- Key Insights
+
+  - The dataset contains 44,429 CMS provider records.
+  - Texas, California, and Florida show the highest facility counts.
+  - Bed count is highly missing, so capacity analysis should be interpreted carefully.
+  - Ownership mix helps explain differences between proprietary, nonprofit, and government providers.
+  - Certification and termination fields provide useful indicators for operational risk review.
+
+- Tools & Technologies
+
+  - Python – Data ingestion, cleaning, and analysis
+  - Pandas – Data transformation and aggregation
+  - NumPy – Data handling
+  - Matplotlib / Seaborn – Exploratory visualization
+  - Jupyter Notebook – Analysis workflow and documentation
+  - Power BI – Dashboard planning and KPI design
+  - Tableau – Dashboard package and geographic storytelling
+  - CMS Public Data – Healthcare provider source data
+
 ### [📊 Airflow-Based Data Pipeline & Text Visualization](https://github.com/ashwinpal17/Portfolio/tree/main/airflow%20pipeline%20text%20visual)
 This project demonstrates an end-to-end data pipeline built using Apache Airflow, Docker, Python, and D3.js. The goal was to automate the ingestion, processing, and visualization of real-world web data using a reproducible workflow that mirrors production-style data engineering practices.
 
