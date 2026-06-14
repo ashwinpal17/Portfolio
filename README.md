@@ -1,7 +1,7 @@
 # Hi 👋, I'm Ashwin
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/brnhaze/Portfolio/main/portfolio_image.jpg" alt="Ashwin Profile Picture" width="120" style="border-radius: 10px; margin-right: 20px;" align="left">
+  <img src="https://raw.githubusercontent.com/brnhaze/Portfolio/main/profile_image_silhouette.png" alt="Ashwin Profile Picture" width="120" style="border-radius: 10px; margin-right: 20px;" align="left">
 </p>
 
 <h3>Ashwin</h3>
