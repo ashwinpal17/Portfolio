@@ -246,7 +246,7 @@ Built a dynamic Excel dashboard to track and visualize performance metrics using
 
 ## 💼 Work Experience
 
-### **Command Centre Engineer (Systems Specialist/Analyst)**  
+### **Analyst/Specialist**  
 **VanCity Savings Credit Union** | *May 2022 – Present*  
 - Monitor, support, and maintain IT systems, ensuring uptime and operational continuity.
 - Utilize tools like Splunk, ServiceNow, PagerDuty, and Azure Pipelines for incident response and performance monitoring.
